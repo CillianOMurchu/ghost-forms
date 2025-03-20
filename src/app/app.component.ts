@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MatSlideToggleModule],
+  imports: [MatSlideToggleModule, TabsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
